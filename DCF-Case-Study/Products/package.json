@@ -1,0 +1,22 @@
+{
+  "name": "products",
+  "version": "1.0.0",
+  "description": "products-microservice",
+  "main": "products.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^9.1.2",
+    "mongoose": "^6.0.7"
+  },
+  "devDependencies": {
+    "chai-http": "^4.3.0"
+  }
+}

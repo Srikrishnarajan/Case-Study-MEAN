@@ -1,0 +1,22 @@
+<!--Coupons page to display coupons for electronic products provided by Amazon and Flipkart-->
+<!--This page is protected using auth guard service (i.e., if the user is logged in, then only he / she can view the page)-->
+<!--Bootstrap classes are used to style this page with some inline css properties-->
+<div class="container-fluid">
+    <div class="container-fluid">
+        <span>
+            <h3 style="text-align: center;">Today's Deals on Amazon and Flipkart</h3>
+        </span>
+        <div class="row card-group">
+            <div class="col-4" *ngFor="let i of coupons">
+                <div class="card w-55 shadow-lg  mb-5 bg-white" style="width:400px">
+                    <img class="card-img mx-auto" src="{{i.image}}" alt="Card image" style="width: 250px;height: 250px;">
+                    <div class="card-body text-center" style="background-color: gold;">
+                        <h5 class="card-title">{{i.offer}}</h5>
+                        <p class="card-text">{{i.productInfo}}</p>
+                        <h4 class="card-title">{{i.coupon}}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

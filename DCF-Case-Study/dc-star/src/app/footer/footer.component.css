@@ -1,0 +1,25 @@
+.mini-footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.mini-footer p {
+    margin: 0px;
+    line-height: 15px;
+    font-size: 15px;
+    color: white;
+}
+
+.mini-footer p a {
+    color: white;
+}
+
+.mini-footer p a:hover {
+    color: black
+}

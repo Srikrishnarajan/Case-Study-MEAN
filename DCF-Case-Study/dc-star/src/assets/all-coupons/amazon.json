@@ -1,0 +1,37 @@
+[{
+        "image": "../../assets/images/hp laptop.jpg",
+        "offer": "37% Off",
+        "productInfo": "HP Pavilion 13(2021)",
+        "coupon": "PROMOCODE - HP37P1321AF"
+    },
+    {
+        "image": "../../assets/images/dell laptop.jpg",
+        "offer": "20% Off",
+        "productInfo": "Dell Inspiron 3501",
+        "coupon": "PROMOCODE - D20I3501AF"
+    },
+    {
+        "image": "../../assets/images/nokia phone.jpg",
+        "offer": "20% Off",
+        "productInfo": "Nokia 110",
+        "coupon": "PROMOCODE - NOK20110AF"
+    },
+    {
+        "image": "../../assets/images/urbn power bank blue.jpg",
+        "offer": "72% Off",
+        "productInfo": "URBN Power Bank",
+        "coupon": "PROMOCODE - URBN72PBAF"
+    },
+    {
+        "image": "../../assets/images/sennheiser headphone.jpg",
+        "offer": "41% Off",
+        "productInfo": "Sennheiser Bluetooth Headphone",
+        "coupon": "PROMOCODE - SH41BTHPAF"
+    },
+    {
+        "image": "../../assets/images/zebronics bluetooth speaker.jpg",
+        "offer": "47% Off",
+        "productInfo": "Zebronics Bluetooth Speaker",
+        "coupon": "PROMOCODE - ZB47BSACAF"
+    }
+]

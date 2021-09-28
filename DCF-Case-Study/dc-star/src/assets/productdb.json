@@ -1,0 +1,86 @@
+[
+    {
+        "prodId": 1,
+        "name": "HP Pavilion 13(2021)",
+        "price": 2025,
+        "rating": 5,
+        "imageUrl": "https://m.media-amazon.com/images/I/71PwU27MbUL._SL1500_.jpg"
+    },
+    {
+        "prodId": 2,
+        "name": "Dell Inspiron 3501",
+        "price": 938,
+        "rating": 0,
+        "imageUrl": "https://m.media-amazon.com/images/I/51jPUwqQTFL._SL1000_.jpg"
+    },
+    {
+        "prodId": 3,
+        "name": "Nokia 110",
+        "price": 48,
+        "rating": 3.4,
+        "imageUrl": "https://m.media-amazon.com/images/I/61k2FQZr0zL._SL1080_.jpg"
+    },
+    {
+        "prodId": 4,
+        "name": "URBN Power Bank",
+        "price": 34,
+        "rating": 4,
+        "imageUrl": "https://m.media-amazon.com/images/I/61cc5rSFHCL._SL1500_.jpg"
+    },
+    {
+        "prodId": 5,
+        "name": "Sennheiser Bluetooth Headphone",
+        "price": 231,
+        "rating": 4.3,
+        "imageUrl": "https://m.media-amazon.com/images/I/51O0OFy6izL._SL1200_.jpg"
+    },
+    {
+        "prodId": 6,
+        "name": "Zebronics Bluetooth Speaker",
+        "price": 14,
+        "rating": 4,
+        "imageUrl": "https://m.media-amazon.com/images/I/91WrXcf79eL._SL1500_.jpg"
+    },
+    {
+        "prodId": 7,
+        "name": "JBL Sports Bluetooth Headset",
+        "price": 44,
+        "rating": 4,
+        "imageUrl": "https://rukminim1.flixcart.com/image/416/416/ka492fk0/headphone/i/c/j/jblendurrunbtred-endurance-runbt-ipx5-sports-jbl-original-imafrqfpgbkxxg8a.jpeg?q=70"
+    },
+    {
+        "prodId": 8,
+        "name": "SONY EX14AP Headset",
+        "price": 18,
+        "rating": 4.1,
+        "imageUrl": "https://rukminim1.flixcart.com/image/416/416/kjym9ow0/headphone/headphone/z/c/f/mdr-ex14ap-sony-original-imafzetckpggfpbj.jpeg?q=70"
+    },
+    {
+        "prodId": 9,
+        "name": "JBL Portable Bluetooth Speaker",
+        "price": 38,
+        "rating": 4.3,
+        "imageUrl": "https://rukminim1.flixcart.com/image/416/416/kfpq5jk0-0/speaker/mobile-tablet-speaker/j/e/q/jblgoplusblueu-jbl-original-imafw3r9gc8srhva.jpeg?q=70"
+    },
+    {
+        "prodId": 10,
+        "name": "ZEBRONICS Bluetooth Speaker",
+        "price": 41,
+        "rating": 3.8,
+        "imageUrl": "https://rukminim1.flixcart.com/image/416/416/k5vcya80pkrrdj/speaker/mobile-tablet-speaker/j/w/g/zebronics-zeb-masterpiece-original-imafnuegpffaksfn.jpeg?q=70"
+    },
+    {
+        "prodId": 11,
+        "name": "PHILIPS 10.5W LED Bulb",
+        "price": 3,
+        "rating": 4.3,
+        "imageUrl": "https://rukminim1.flixcart.com/image/416/416/bulb/m/h/g/929001197913-philips-original-imadzvc2fhkyvhrj.jpeg?q=70"
+    },
+    {
+        "prodId": 12,
+        "name": "CROMPTON 23W LED Bulb",
+        "price": 26,
+        "rating": 4.2,
+        "imageUrl": "https://rukminim1.flixcart.com/image/416/416/j69mz680/bulb/g/q/x/18w-b22-led-bulb-white-pack-of-04-crompton-original-imaewrwynsqqgrut.jpeg?q=70"
+    }
+]

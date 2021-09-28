@@ -1,0 +1,21 @@
+.card {
+    margin-top: 10px;
+}
+
+.line {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card-text {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gold;
+    font-style: oblique;
+}

@@ -1,0 +1,12 @@
+.card {
+    margin-top: 5px;
+}
+
+h3{
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: black;
+}

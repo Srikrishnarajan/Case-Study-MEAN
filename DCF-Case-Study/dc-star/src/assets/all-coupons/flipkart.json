@@ -1,0 +1,37 @@
+[{
+        "image": "../../assets/images/jbl headphones.jpeg",
+        "offer": "39% Off",
+        "productInfo": "JBL Sports Bluetooth Headset",
+        "coupon": "PROMOCODE - JBL39SBHFA"
+    },
+    {
+        "image": "../../assets/images/sony headphones.jpeg",
+        "offer": "53% Off",
+        "productInfo": "SONY EX14AP Headset",
+        "coupon": "PROMOCODE - SONY53WHFA"
+    },
+    {
+        "image": "../../assets/images/jbl speakers.jpeg",
+        "offer": "42% Off",
+        "productInfo": "JBL Portable Bluetooth Speaker",
+        "coupon": "PROMOCODE - JBL42PBSFA"
+    },
+    {
+        "image": "../../assets/images/zebronics speakers.jpeg",
+        "offer": "50% Off",
+        "productInfo": "ZEBRONICS Bluetooth Speaker",
+        "coupon": "PROMOCODE - ZB50BSFA"
+    },
+    {
+        "image": "../../assets/images/philips bulb.jpeg",
+        "offer": "33% Off",
+        "productInfo": "PHILIPS 10.5W LED Bulb",
+        "coupon": "PROMOCODE - PL3310WBFA"
+    },
+    {
+        "image": "../../assets/images/crompton bulb.jpeg",
+        "offer": "36% Off",
+        "productInfo": "CROMPTON 23W LED Bulb",
+        "coupon": "PROMOCODE - CT3623WBFA"
+    }
+]

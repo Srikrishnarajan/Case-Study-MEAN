@@ -1,0 +1,87 @@
+<!--Cart page where you see items which are added-->
+<!--Bootstrap classes are used to style this page with some inline css properties-->
+<div class="container-fluid">
+    <div>
+        <span class="scrollbar1">
+			<h3>Items in your Cart</h3>
+		</span>
+        <div class="card" *ngIf="item==0">
+            <img src="../../assets/images/card-empty.jpg" class="card-img-top" alt="...">
+            <div class="card-body align-items-center d-flex justify-content-center">
+                <button class="btn" style="background-color: blue; color: white;" routerLink="/products">
+                    <i class="fa fa-angle-left"></i>Continue Shopping
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <table *ngIf="item!=0" id="cart" class="table table-hover table-condensed">
+            <thead>
+                <tr>
+                    <th style="width:65%">
+                        <h4>Product</h4>
+                    </th>
+                    <th style="width:7%">
+                        <h4>Price</h4>
+                    </th>
+                    <th style="width:8%">
+                        <h4>Quantity</h4>
+                    </th>
+                    <th style="width:20%" class="text-center">
+                        <h4>Promocode</h4>
+                    </th>
+                    <th style="width:10%"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let i of item">
+                    <td data-th="Product">
+                        <div class="row">
+                            <div class="col-sm-2 hidden-xs">
+                                <img src="{{i.imageUrl}}" alt="..." class="img-responsive" style="width:100px;height:80px">
+                            </div>
+                            <div class="col-sm-10">
+                                <h4 class="nomargin" style="margin-left: 5px;text-align: center;">{{i.name}}</h4>
+                            </div>
+                        </div>
+                    </td>
+                    <td data-th="Price">{{i.price | currency}}</td>
+                    <td data-th="Quantity">
+                        <i class="fa fa-minus" (click)="Increment('down',i)"></i> &nbsp; {{i.ordervalue}}
+                        <i class="fa fa-plus" style="margin-left: 15px;" (click)="Increment('up',i)"></i>
+                    </td>
+                    <td data-th="Promocode" class="text-center">
+                        <button id="i.id" class="btn btn-sm" style="background-color: green; color: white;" (click)="getCoupon(i)">
+                            Apply Coupon
+                        </button>
+                    </td>
+                    <td class="actions" data-th="">
+                        <button class="btn btn-danger btn-sm" (click)="deleteFromCart(i)">
+                            <i class="fa fa-trash-o"></i>
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td> 
+                        <button class="btn btn-warning" style="background-color: blue; color: white;" routerLink="/products">
+                            <i class="fa fa-angle-left"></i>Continue Shopping
+                        </button>
+                    </td>
+                    <td colspan="2" class="hidden-xs"></td>
+                    <td>
+                        <a href="https://buy.stripe.com/test_aEU9Bw35w7Yb5pK3ce">
+                            <button class="btn btn-success btn-block" style="background-color: blue;" 
+                            (click)="order()">Checkout<i class="fa fa-angle-right"></i>
+                            </button>
+                        </a>
+                    </td>
+                    <td>
+                        
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
